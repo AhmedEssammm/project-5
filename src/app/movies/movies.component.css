@@ -1,0 +1,24 @@
+.vote {
+    background-color: #24baef;
+    color: #fff;
+    font-weight: 900;
+    width: 35px;
+    padding: 5px;
+}
+.header p {
+    color: #949cb0;
+}
+.header h2 {
+    font-size: 100px;
+    font-weight: 900;
+}
+.brdr {
+    background-color: #a8a8a83d;
+    height: 1px;
+}
+.movie {
+    margin: 0px 10px 30px 10px;
+}
+.movie img {
+    height: 450px;
+}

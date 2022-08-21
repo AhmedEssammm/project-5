@@ -1,0 +1,55 @@
+<div class="row">
+    <div class="col-md-4">
+        <div class="brdr w-25 my-5"></div>
+        <h2>Trending <br> Movies <br> To Watch Now</h2>
+        <p>Most watched movies by day</p>
+        <div class="brdr w-100 my-5"></div>
+    </div>
+    <div *ngFor="let movie of trendingMovies" class="col-md-2">
+        <div class="movie text-center position-relative">
+            <a [routerLink]="['/moviesDetails', movie.id]" class="text-decoration-none text-white">
+                <img [src]="imgPrefix+movie.poster_path" class="w-100" alt="">
+                <h3 class="h5">{{movie.title}} {{movie.name}}</h3>
+                <div class="vote position-absolute top-0 end-0 ">
+                    {{movie.vote_average}}
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="brdr w-25 my-5"></div>
+        <h2>Trending <br> TV Shows <br> To Watch Now</h2>
+        <p>Most watched tv shows by day</p>
+        <div class="brdr w-100 my-5"></div>
+    </div>
+    <div *ngFor="let movie of trendingTv" class="col-md-2">
+        <div class="movie text-center position-relative">
+            <a [routerLink]="['/moviesDetails', movie.id]" class="text-decoration-none text-white">
+                <img [src]="imgPrefix+movie.poster_path" class="w-100" alt="">
+                <h3 class="h5">{{movie.title}} {{movie.name}}</h3>
+                <div class="vote position-absolute top-0 end-0 ">
+                    {{movie.vote_average}}
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="brdr w-25 my-5"></div>
+        <h2>Trending <br> People <br> To Watch Now</h2>
+        <p>Most watched people by day</p>
+        <div class="brdr w-100 my-5"></div>
+    </div>
+    <div *ngFor="let movie of trendingPeople" class="col-md-2">
+        <div class="movie text-center position-relative">
+            <img [src]="imgPrefix+movie.poster_path" class="w-100" alt="">
+            <h3 class="h5">{{movie.title}} {{movie.name}}</h3>
+            <div class="vote position-absolute top-0 end-0 ">
+                {{movie.vote_average}}
+            </div>
+        </div>
+    </div>
+</div>

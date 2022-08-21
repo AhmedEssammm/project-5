@@ -1,0 +1,16 @@
+.navbar-brand {
+    font-size: 42px;
+    font-weight: 700;
+}
+.bg-color {
+    background-color: #131722;
+}
+nav a {
+    color: #fff !important;
+}
+nav a:hover {
+    color: rgb(160, 228, 255) !important;
+}
+.left {
+    padding-right: 20px;
+}

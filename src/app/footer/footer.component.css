@@ -1,0 +1,27 @@
+.bg-color {
+    background-color: #0f121b;
+    box-shadow: 0 0 5px 5px black;
+    margin-top: 20px;
+}
+.footer {
+    padding: 20px;
+}   
+h2 {
+    font-weight: 900;
+}
+p {
+    color: #949cb0;
+    font-weight: 100;
+    font-size: 0.7rem;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+.line {
+    background-color: #a8a8a83d;
+    width: 1px;
+    margin-left: 15px;
+    margin-right: 15px;
+}

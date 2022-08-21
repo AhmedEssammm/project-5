@@ -1,0 +1,9 @@
+.light {
+    color: #949cb0;
+}
+.brdr {
+    background-color: #a8a8a83d;
+    height: 1px;
+    margin: 15px 0px 15px 0px;
+    width: 50%;
+}
